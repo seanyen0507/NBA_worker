@@ -1,0 +1,6 @@
+runtime "ruby", "2.1"
+exec "nba_lineup_worker.rb"
+
+gemfile 'Gemfile'
+
+full_remote_build true
